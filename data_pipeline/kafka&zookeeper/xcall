@@ -1,0 +1,6 @@
+#!/bin/bash
+for i in kafka01 kafka02 kafka03
+do 
+  echo --------------$i------------
+  ssh $i "$*"
+done

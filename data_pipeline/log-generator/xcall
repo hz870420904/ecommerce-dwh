@@ -1,0 +1,6 @@
+#!/bin/bash
+for i in s01 s02
+do 
+  echo --------------$i------------
+  ssh $i "$*"
+done

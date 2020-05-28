@@ -1,0 +1,6 @@
+#!/bin/bash
+for i in h01 h02 h03
+do 
+  echo --------------$i------------
+  ssh $i "$*"
+done
