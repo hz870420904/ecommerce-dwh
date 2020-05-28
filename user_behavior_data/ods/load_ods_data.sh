@@ -3,7 +3,7 @@
 hive=/usr/local/hive/bin/hive
 app=gmall
 
-if [ -n $1 ]; then #input date
+if [ -n $1 ] ;then #input date
     do_date=$1
 else 
     do_date='date -d "-1 day" +%F'
